@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Message Sent | Wency Jade Oriente</title>
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <style>
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --baby-pink: #F8C8DC;
+      --light-pink: #FCE4EC;
+      --blush: #F4B6C2;
+      --soft-rose: #E8A0B5;
+      --deep-rose: #D46B88;
+      --bg-page: #FFF8FA;
+      --text-main: #3F3F46;
+      --text-muted: #71717A;
+      --shadow-md: 0 10px 26px -4px rgba(244, 182, 194, 0.35), 0 3px 8px rgba(232, 160, 181, 0.15);
+      --shadow-btn: 0 6px 18px rgba(212, 107, 136, 0.35);
+      --font-heading: 'Plus Jakarta Sans', system-ui, sans-serif;
+      --font-body: 'Inter', system-ui, sans-serif;
+    }
+
+    html,
+    body {
+      min-height: 100vh;
+      background: var(--bg-page);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--font-body);
+      color: var(--text-main);
+    }
+
+    body::before,
+    body::after {
+      content: '';
+      position: fixed;
+      border-radius: 50%;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    body::before {
+      width: 420px;
+      height: 420px;
+      background: radial-gradient(circle, rgba(248, 200, 220, 0.45) 0%, transparent 70%);
+      top: -80px;
+      left: -80px;
+    }
+
+    body::after {
+      width: 360px;
+      height: 360px;
+      background: radial-gradient(circle, rgba(244, 182, 194, 0.35) 0%, transparent 70%);
+      bottom: -60px;
+      right: -60px;
+    }
+
+    .card {
+      position: relative;
+      z-index: 1;
+      background: #fff;
+      border-radius: 28px;
+      padding: 3rem 2.5rem 2.5rem;
+      max-width: 440px;
+      width: 90%;
+      text-align: center;
+      box-shadow: var(--shadow-md);
+      border: 1px solid rgba(248, 200, 220, 0.5);
+      animation: fadeUp 0.55s cubic-bezier(0.4, 0, 0.2, 1) both;
+    }
+
+    @keyframes fadeUp {
+      from {
+        opacity: 0;
+        transform: translateY(28px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .icon-wrap {
+      width: 80px;
+      height: 80px;
+      margin: 0 auto 1.5rem;
+      background: linear-gradient(135deg, var(--baby-pink) 0%, var(--soft-rose) 100%);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2.2rem;
+      box-shadow: 0 6px 20px rgba(232, 160, 181, 0.4);
+      animation: popIn 0.5s 0.3s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+    }
+
+    @keyframes popIn {
+      from {
+        opacity: 0;
+        transform: scale(0.5);
+      }
+
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+    .card-title {
+      font-family: var(--font-heading);
+      font-size: 1.75rem;
+      font-weight: 800;
+      color: var(--text-main);
+      margin-bottom: 0.6rem;
+      letter-spacing: -0.02em;
+    }
+
+    .card-subtitle {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      line-height: 1.65;
+      margin-bottom: 2rem;
+    }
+
+    .divider {
+      height: 1px;
+      background: linear-gradient(to right, transparent, var(--light-pink), transparent);
+      margin-bottom: 2rem;
+    }
+
+    .btn-return {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.45rem;
+      padding: 0.85rem 2.2rem;
+      background: linear-gradient(135deg, var(--blush) 0%, var(--deep-rose) 100%);
+      color: #fff;
+      font-family: var(--font-heading);
+      font-size: 0.95rem;
+      font-weight: 700;
+      border-radius: 9999px;
+      text-decoration: none;
+      letter-spacing: 0.01em;
+      box-shadow: var(--shadow-btn);
+      transition: transform 0.18s cubic-bezier(0.4, 0, 0.2, 1),
+        box-shadow 0.18s cubic-bezier(0.4, 0, 0.2, 1),
+        filter 0.18s;
+    }
+
+    .btn-return:hover {
+      transform: translateY(-2px) scale(1.03);
+      box-shadow: 0 10px 28px rgba(212, 107, 136, 0.45);
+      filter: brightness(1.05);
+    }
+
+    .btn-return:active {
+      transform: translateY(0) scale(0.98);
+    }
+
+    .btn-return svg {
+      width: 16px;
+      height: 16px;
+      flex-shrink: 0;
+    }
+
+    .card-note {
+      margin-top: 1.4rem;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <div class="icon-wrap" aria-hidden="true">&#x2709;&#xFE0F;</div>
+    <h1 class="card-title">Thanks!</h1>
+    <p class="card-subtitle">
+      The form was submitted successfully.<br />
+      I&rsquo;ll get back to you as soon as possible. &#x1F338;
+    </p>
+    <div class="divider"></div>
+    <a href="/" class="btn-return" id="returnBtn">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+        stroke-linecap="round" stroke-linejoin="round">
+        <path d="M19 12H5M12 5l-7 7 7 7" />
+      </svg>
+      Return
+    </a>
+    <p class="card-note">Wency Jade Oriente &middot; Portfolio &#x2736;</p>
+  </div>
+</body>
+
+</html>
