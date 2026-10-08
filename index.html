@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Wency Jade Oriente — Information Systems Student Portfolio. Soft aesthetic portfolio showcasing academic journey, skills, projects, leadership, and resume." />
+  <title>Wency Jade Oriente | Information Systems Portfolio ✨</title>
+
+  <!-- Google Fonts: Plus Jakarta Sans & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
+    rel="stylesheet" />
+
+  <!-- Remix Icons (Clean Line Icons) -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- =============================================
+       STICKY NAVIGATION BAR (Soft Light Pink / White)
+       ============================================= -->
+  <header id="header">
+    <nav id="navbar">
+      <div class="container nav-inner">
+
+        <!-- Brand Logo -->
+        <a href="#home" class="nav-logo" aria-label="Wency Jade Oriente Home">
+          <span class="logo-badge">🌸</span>
+          <span class="logo-text">WJ Oriente<span class="sparkle-dot">✦</span></span>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home" class="nav-link active" data-section="home">Home</a></li>
+          <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+          <li><a href="#education" class="nav-link" data-section="education">Education</a></li>
+          <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+          <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
+          <li><a href="#leadership" class="nav-link" data-section="leadership">Leadership</a></li>
+          <li><a href="#certs" class="nav-link" data-section="certs">Certs</a></li>
+          <li><a href="#seminars" class="nav-link" data-section="seminars">Seminars</a></li>
+          <li><a href="#awards" class="nav-link" data-section="awards">Awards</a></li>
+          <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+          <li>
+            <a href="resume.pdf" target="_blank" rel="noopener noreferrer" class="nav-resume-btn" id="navResumeBtn"
+              title="Open Resume PDF in new tab">
+              <i class="ri-file-pdf-2-line"></i> <span>Resume ✨</span>
+            </a>
+          </li>
+        </ul>
+
+        <!-- Mobile Hamburger Toggle -->
+        <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="bar bar-1"></span>
+          <span class="bar bar-2"></span>
+          <span class="bar bar-3"></span>
+        </button>
+
+      </div>
+    </nav>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="mobile-nav-backdrop" id="mobileNavBackdrop"></div>
+  <aside class="mobile-nav" id="mobileNav" aria-label="Mobile Navigation">
+    <div class="mobile-nav-header">
+      <div class="nav-logo">
+        <span class="logo-badge">🌸</span>
+        <span class="logo-text">WJ Oriente<span class="sparkle-dot">✦</span></span>
+      </div>
+      <button class="mobile-nav-close" id="mobileNavClose" aria-label="Close menu">
+        <i class="ri-close-line"></i>
+      </button>
+    </div>
+
+    <div class="mobile-nav-links">
+      <a href="#home" class="mobile-link active" data-section="home"><i class="ri-home-5-line"></i> Home</a>
+      <a href="#about" class="mobile-link" data-section="about"><i class="ri-heart-3-line"></i> About Me</a>
+      <a href="#education" class="mobile-link" data-section="education"><i class="ri-graduation-cap-line"></i>
+        Education</a>
+      <a href="#projects" class="mobile-link" data-section="projects"><i class="ri-code-box-line"></i> Projects</a>
+      <a href="#skills" class="mobile-link" data-section="skills"><i class="ri-sparkling-2-line"></i> Skills</a>
+      <a href="#leadership" class="mobile-link" data-section="leadership"><i class="ri-team-line"></i> Leadership</a>
+      <a href="#certs" class="mobile-link" data-section="certs"><i class="ri-award-line"></i> Certifications</a>
+      <a href="#seminars" class="mobile-link" data-section="seminars"><i class="ri-presentation-line"></i> Seminars</a>
+      <a href="#awards" class="mobile-link" data-section="awards"><i class="ri-star-smile-line"></i> Awards</a>
+      <a href="#contact" class="mobile-link" data-section="contact"><i class="ri-mail-send-line"></i> Contact</a>
+    </div>
+
+    <div class="mobile-nav-footer">
+      <a href="resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-block">
+        <i class="ri-file-pdf-2-line"></i> View Resume PDF ✨
+      </a>
+    </div>
+  </aside>
+
+
+  <!-- =============================================
+       1. HERO / HOME SECTION (Soft Baby Pink Aesthetic)
+       ============================================= -->
+  <section id="home" class="hero-section">
+    <!-- Soft Decorative Pastel Blurs & Sparkles -->
+    <div class="hero-ambient-glow glow-pink-1"></div>
+    <div class="hero-ambient-glow glow-pink-2"></div>
+    <div class="hero-ambient-glow glow-pink-3"></div>
+
+    <!-- Floating Subtle Sparkles -->
+    <span class="decor-sparkle sparkle-pos-1">✦</span>
+    <span class="decor-sparkle sparkle-pos-2">★</span>
+    <span class="decor-sparkle sparkle-pos-3">✦</span>
+    <span class="decor-sparkle sparkle-pos-4">♡</span>
+
+    <div class="container hero-container">
+      <div class="hero-content reveal">
+
+        <!-- Status Badge -->
+        <div class="status-badge">
+          <span class="status-pulse"></span>
+          <span>Information Systems Student · Open to Opportunities 🌸</span>
+        </div>
+
+        <h1 class="hero-title">
+          Hi, I'm <br />
+          <span class="gradient-text">Wency Jade Oriente</span>
+        </h1>
+
+        <p class="hero-subtitle">
+          <i class="ri-sparkling-fill"></i> Information Systems Student
+        </p>
+
+        <p class="hero-description">
+          I am an Information Systems student interested in IT support, technology,
+          database systems, and web development. Passionate about learning new tools,
+          building structured systems, and applying classroom knowledge to real-world solutions.
+        </p>
+
+        <!-- Hero Action Buttons -->
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">
+            <i class="ri-folder-heart-line"></i> View My Projects
+          </a>
+          <a href="resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" id="heroResumeBtn"
+            title="Open PDF Resume in a new tab">
+            <i class="ri-file-pdf-2-line"></i> View Resume ✨
+          </a>
+          <a href="#contact" class="btn btn-ghost">
+            <i class="ri-chat-smile-3-line"></i> Get in Touch
+          </a>
+        </div>
+
+        <!-- Quick Highlight Chips -->
+        <div class="hero-highlights">
+          <div class="highlight-chip">
+            <i class="ri-map-pin-2-line"></i> Santol, La Union
+          </div>
+          <div class="highlight-chip">
+            <i class="ri-building-4-line"></i> DMMMSU-NLUC
+          </div>
+          <div class="highlight-chip">
+            <i class="ri-star-smile-line"></i> With Honors
+          </div>
+        </div>
+
+      </div><!-- /.hero-content -->
+
+      <!-- Hero Visual / Soft Floating Profile Card -->
+      <div class="hero-visual reveal">
+        <div class="hero-card-floating">
+
+          <div class="hero-card-header">
+            <div class="hero-avatar hero-avatar--photo">
+              <img src="profile.jpg" alt="Wency Jade Oriente" class="hero-avatar-img" />
+            </div>
+            <div class="hero-card-user">
+              <h3 class="hero-card-name">Wency Jade Oriente</h3>
+              <p class="hero-card-role">Information Systems ✨</p>
+            </div>
+          </div>
+
+          <div class="hero-card-divider"></div>
+
+          <div class="hero-card-stats">
+            <div class="stat-box">
+              <span class="stat-number">1</span>
+              <span class="stat-label">Featured Project</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-number">6+</span>
+              <span class="stat-label">Tech Skills</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-number">3</span>
+              <span class="stat-label">Leadership Roles</span>
+            </div>
+          </div>
+
+          <div class="hero-card-footer">
+            <div class="student-status-tag">
+              <i class="ri-shield-check-line"></i> TESDA NC II Certified
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div><!-- /.hero-container -->
+  </section>
+
+
+  <!-- =============================================
+       2. ABOUT ME SECTION
+       ============================================= -->
+  <section id="about" class="section section-alt">
+    <div class="container">
+
+      <div class="section-header reveal">
+        <span class="section-tag"><i class="ri-heart-3-line"></i> Get To Know Me</span>
+        <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="about-layout">
+
+        <!-- Left Column: Visual Card -->
+        <div class="about-visual-card reveal">
+          <div class="about-avatar-box">
+            <div class="about-photo-wrap">
+              <img src="profile.jpg" alt="Wency Jade Oriente" class="about-photo" />
+            </div>
+            <div class="about-badge-float">
+              <span class="badge-icon">🎓</span>
+              <div>
+                <strong>BSIS Student</strong>
+                <small>NLUC Campus · DMMMSU</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Story & Details -->
+        <div class="about-content reveal">
+          <h3 class="about-heading">Passionate Information Systems Student from La Union 🌸</h3>
+
+          <p class="about-paragraph">
+            I am currently pursuing a <strong>Bachelor of Science in Information Systems</strong>
+            at Don Mariano Marcos Memorial State University – NLUC. I have a genuine interest in
+            how technology and database management can be leveraged to simplify daily operations and solve real
+            challenges.
+          </p>
+
+          <p class="about-paragraph">
+            As an aspiring IT professional, I actively look for opportunities to enhance my technical foundation
+            in PHP, MySQL, IT support, and web technologies. I value dedication, teamwork, and continuous learning,
+            bringing enthusiasm to every project and student leadership role I take on.
+          </p>
+
+          <!-- Key Information Grid -->
+          <div class="about-info-grid">
+            <div class="info-card">
+              <div class="info-icon"><i class="ri-map-pin-user-line"></i></div>
+              <div class="info-details">
+                <span class="info-label">Location</span>
+                <span class="info-value">Santol, La Union</span>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon"><i class="ri-book-open-line"></i></div>
+              <div class="info-details">
+                <span class="info-label">Degree Program</span>
+                <span class="info-value">BS Information Systems</span>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon"><i class="ri-mail-line"></i></div>
+              <div class="info-details">
+                <span class="info-label">Email</span>
+                <a href="mailto:wencyjadeo@gmail.com" class="info-value info-link">wencyjadeo@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon"><i class="ri-phone-line"></i></div>
+              <div class="info-details">
+                <span class="info-label">Phone</span>
+                <a href="tel:+639097139320" class="info-value info-link">+63 909 713 9320</a>
+              </div>
+            </div>
+          </div>
+
+        </div><!-- /.about-content -->
+
+      </div><!-- /.about-layout -->
+
+    </div>
+  </section>
+
+
+  <!-- =============================================
+       3. EDUCATION SECTION
+       ============================================= -->
+  <section id="education" class="section">
+    <div class="container">
+
+      <div class="section-header reveal">
+        <span class="section-tag"><i class="ri-graduation-cap-line"></i> Academic Journey</span>
+        <h2 class="section-title">My <span class="gradient-text">Education</span></h2>
+        <p class="section-subtitle">A chronological record of my academic milestones and studies</p>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="timeline-container">
+
+        <!-- College -->
+        <div class="timeline-item reveal">
+          <div class="timeline-marker">
+            <i class="ri-building-4-line"></i>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-badge">College · Current 🌸</div>
+            <h3 class="timeline-title">Bachelor of Science in Information Systems</h3>
+            <p class="timeline-school">
+              <i class="ri-map-pin-2-line"></i> Don Mariano Marcos Memorial State University – NLUC
+            </p>
+            <p class="timeline-location">Sapilang, Bacnotan, La Union</p>
+            <div class="timeline-period">
+              <i class="ri-calendar-event-line"></i> 2024 – Present
+            </div>
+          </div>
+        </div>
+
+        <!-- Senior High School -->
+        <div class="timeline-item reveal">
+          <div class="timeline-marker">
+            <i class="ri-school-line"></i>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-badge">Senior High School</div>
+            <h3 class="timeline-title">Senior High School</h3>
+            <p class="timeline-school">
+              <i class="ri-map-pin-2-line"></i> Santol Vocational High School
+            </p>
+            <p class="timeline-location">Poblacion, Santol, La Union</p>
+            <div class="timeline-period">
+              <i class="ri-calendar-event-line"></i> 2023 – 2024
+            </div>
+          </div>
+        </div>
+
+        <!-- Junior High School -->
+        <div class="timeline-item reveal">
+          <div class="timeline-marker">
+            <i class="ri-school-line"></i>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-badge">Junior High School</div>
+            <h3 class="timeline-title">Junior High School</h3>
+            <p class="timeline-school">
+              <i class="ri-map-pin-2-line"></i> Santol Vocational High School
+            </p>
+            <p class="timeline-location">Poblacion, Santol, La Union</p>
+            <div class="timeline-period">
+              <i class="ri-calendar-event-line"></i> 2021 – 2022
+            </div>
+          </div>
+        </div>
+
+        <!-- Primary School -->
+        <div class="timeline-item reveal">
+          <div class="timeline-marker">
+            <i class="ri-book-open-line"></i>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-badge">Primary School</div>
+            <h3 class="timeline-title">Elementary Education</h3>
+            <p class="timeline-school">
+              <i class="ri-map-pin-2-line"></i> Santol Central School
+            </p>
+            <p class="timeline-location">Poblacion, Santol, La Union</p>
+            <div class="timeline-period">
+              <i class="ri-calendar-event-line"></i> 2017 – 2018
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /.timeline-container -->
+
+    </div>
+  </section>
+
+
+  <!-- =============================================
+       4. PROJECTS SECTION
+       ============================================= -->
+  <section id="projects" class="section section-alt">
+    <div class="container">
+
+      <div class="section-header reveal">
+        <span class="section-tag"><i class="ri-code-box-line"></i> Featured Project</span>
+        <h2 class="section-title">My <span class="gradient-text">Projects</span></h2>
+        <p class="section-subtitle">Real-world practical systems and applications developed</p>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="projects-container">
+
+        <!-- Project Card: RFID Library Management System -->
+        <div class="project-card reveal">
+          <div class="project-banner">
+            <div class="project-icon-badge">
+              <i class="ri-book-read-line"></i>
+            </div>
+            <div class="project-category-tag">Database &amp; Web System 🌸</div>
+          </div>
+
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="tech-tag"><i class="ri-code-line"></i> PHP</span>
+              <span class="tech-tag"><i class="ri-database-2-line"></i> MySQL</span>
+              <span class="tech-tag"><i class="ri-rfid-line"></i> RFID</span>
+              <span class="tech-tag"><i class="ri-layout-line"></i> UI/UX</span>
+            </div>
+
+            <h3 class="project-title">RFID Library Management System</h3>
+
+            <p class="project-desc">
+              Developed a basic library management system for managing student records, books, and borrowing
+              transactions.
+              The system uses PHP and MySQL to store and manage information efficiently.
+            </p>
+
+            <ul class="project-features">
+              <li><i class="ri-checkbox-circle-fill"></i> Designed normalized relational database schema in MySQL.</li>
+              <li><i class="ri-checkbox-circle-fill"></i> Implemented record management for books, students, and
+                borrow/return logs.</li>
+              <li><i class="ri-checkbox-circle-fill"></i> Created a simple, user-friendly web interface for smooth
+                library operations.</li>
+            </ul>
+
+            <div class="project-footer">
+              <span class="project-status"><span class="status-dot"></span> Completed Student Project</span>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /.projects-container -->
+
+    </div>
+  </section>
+
+
+  <!-- =============================================
+       5. SKILLS SECTION
+       ============================================= -->
+  <section id="skills" class="section">
+    <div class="container">
+
+      <div class="section-header reveal">
+        <span class="section-tag"><i class="ri-sparkling-line"></i> Technical Foundations</span>
+        <h2 class="section-title">My <span class="gradient-text">Skills</span></h2>
+        <p class="section-subtitle">Core technical tools and fundamentals I work with</p>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="skills-grid">
+
+        <!-- Skill 1 -->
+        <div class="skill-card reveal">
+          <div class="skill-icon-wrap">
+            <i class="ri-computer-line"></i>
+          </div>
+          <h3 class="skill-title">Basic Computer Skills</h3>
+          <span class="skill-proficiency">Comfortable</span>
+          <div class="skill-meter">
+            <div class="skill-progress" data-width="75%"></div>
+          </div>
+        </div>
+
+        <!-- Skill 2 -->
+        <div class="skill-card reveal">
+          <div class="skill-icon-wrap">
+            <i class="ri-database-2-line"></i>
+          </div>
+          <h3 class="skill-title">Basic MySQL</h3>
+          <span class="skill-proficiency">Familiar</span>
+          <div class="skill-meter">
+            <div class="skill-progress" data-width="60%"></div>
+          </div>
+        </div>
+
+        <!-- Skill 3 -->
+        <div class="skill-card reveal">
+          <div class="skill-icon-wrap">
+            <i class="ri-file-word-line"></i>
+          </div>
+          <h3 class="skill-title">Microsoft Office</h3>
+          <span class="skill-proficiency">Comfortable</span>
+          <div class="skill-meter">
+            <div class="skill-progress" data-width="70%"></div>
+          </div>
+        </div>
+
+        <!-- Skill 4 -->
+        <div class="skill-card reveal">
+          <div class="skill-icon-wrap">
+            <i class="ri-terminal-box-line"></i>
+          </div>
+          <h3 class="skill-title">PHP Programming</h3>
+          <span class="skill-proficiency">Familiar</span>
+          <div class="skill-meter">
+            <div class="skill-progress" data-width="55%"></div>
+          </div>
+        </div>
+
+        <!-- Skill 5 -->
+        <div class="skill-card reveal">
+          <div class="skill-icon-wrap">
+            <i class="ri-server-line"></i>
+          </div>
+          <h3 class="skill-title">Database Management</h3>
+          <span class="skill-proficiency">Familiar</span>
+          <div class="skill-meter">
+            <div class="skill-progress" data-width="60%"></div>
+          </div>
+        </div>
+
+        <!-- Skill 6 -->
+        <div class="skill-card reveal">
+          <div class="skill-icon-wrap">
+            <i class="ri-global-line"></i>
+          </div>
+          <h3 class="skill-title">Basic Web Development</h3>
+          <span class="skill-proficiency">Familiar</span>
+          <div class="skill-meter">
+            <div class="skill-progress" data-width="55%"></div>
+          </div>
+        </div>
+
+      </div><!-- /.skills-grid -->
+
+    </div>
+  </section>
+
+
+  <!-- =============================================
+       6. LEADERSHIP SECTION
+       ============================================= -->
+  <section id="leadership" class="section section-alt">
+    <div class="container">
+
+      <div class="section-header reveal">
+        <span class="section-tag"><i class="ri-team-line"></i> Student Leadership</span>
+        <h2 class="section-title">Leadership <span class="gradient-text">Experience</span></h2>
+        <p class="section-subtitle">Service and organizational leadership roles in student government and societies</p>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="leadership-grid">
+
+        <!-- Role 1 -->
+        <div class="leadership-card reveal">
+          <div class="leadership-card-top">
+            <div class="leader-icon-badge">
+              <i class="ri-government-line"></i>
+            </div>
+            <span class="year-pill">2023 – 2024</span>
+          </div>
+          <h3 class="leader-role">Grade 12 Representative</h3>
+          <p class="leader-org">Supreme Secondary Learner Government</p>
+          <p class="leader-campus"><i class="ri-map-pin-2-line"></i> Poblacion, Santol, La Union</p>
+        </div>
+
+        <!-- Role 2 -->
+        <div class="leadership-card reveal">
+          <div class="leadership-card-top">
+            <div class="leader-icon-badge">
+              <i class="ri-team-line"></i>
+            </div>
+            <span class="year-pill">2025 – 2026</span>
+          </div>
+          <h3 class="leader-role">2B Representative</h3>
+          <p class="leader-org">Society of Information Technology Enthusiasts</p>
+          <p class="leader-campus"><i class="ri-map-pin-2-line"></i> Sapilang, Bacnotan, La Union</p>
+        </div>
+
+        <!-- Role 3 -->
+        <div class="leadership-card reveal">
+          <div class="leadership-card-top">
+            <div class="leader-icon-badge">
+              <i class="ri-funds-box-line"></i>
+            </div>
+            <span class="year-pill">2026 – 2027</span>
+          </div>
+          <h3 class="leader-role">Assistant Treasurer</h3>
+          <p class="leader-org">Society of Information</p>
+          <p class="leader-campus"><i class="ri-map-pin-2-line"></i> Sapilang, Bacnotan, La Union</p>
+        </div>
+
+      </div><!-- /.leadership-grid -->
+
+    </div>
+  </section>
+
+
+  <!-- =============================================
+       7. CERTIFICATIONS SECTION
+       ============================================= -->
+  <section id="certs" class="section">
+    <div class="container">
+
+      <div class="section-header reveal">
+        <span class="section-tag"><i class="ri-award-line"></i> National Certifications</span>
+        <h2 class="section-title">Certifications &amp; <span class="gradient-text">Licenses</span></h2>
+        <p class="section-subtitle">Official credentials and vocational qualifications awarded</p>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="certs-grid">
+
+        <!-- Cert 1 -->
+        <div class="cert-card reveal">
+          <div class="cert-badge-icon">
+            <i class="ri-medal-line"></i>
+          </div>
+          <div class="cert-info">
+            <span class="cert-authority"><i class="ri-verified-badge-fill"></i> TESDA — National Certificate II</span>
+            <h3 class="cert-name">Bread and Pastry Production NC II (FBS NC II)</h3>
+            <p class="cert-desc">Technical Education and Skills Development Authority verified competency certificate.
+            </p>
+          </div>
+        </div>
+
+        <!-- Cert 2 -->
+        <div class="cert-card reveal">
+          <div class="cert-badge-icon">
+            <i class="ri-medal-2-line"></i>
+          </div>
+          <div class="cert-info">
+            <span class="cert-authority"><i class="ri-verified-badge-fill"></i> TESDA — National Certificate II</span>
+            <h3 class="cert-name">Food and Beverage Services NC II (BPP NC II)</h3>
+            <p class="cert-desc">Technical Education and Skills Development Authority verified competency certificate.
+            </p>
+          </div>
+        </div>
+
+      </div><!-- /.certs-grid -->
+
+    </div>
+  </section>
+
+
+  <!-- =============================================
+       8. SEMINARS & TRAININGS SECTION
+       ============================================= -->
+  <section id="seminars" class="section section-alt">
+    <div class="container">
+
+      <div class="section-header reveal">
+        <span class="section-tag"><i class="ri-presentation-line"></i> Professional Growth</span>
+        <h2 class="section-title">Seminars &amp; <span class="gradient-text">Trainings</span></h2>
+        <p class="section-subtitle">Conferences, tech caravans, and institutional lecture series attended</p>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="seminars-container">
+
+        <!-- Seminar 1 -->
+        <div class="seminar-card reveal">
+          <div class="seminar-number">01</div>
+          <div class="seminar-content">
+            <h3 class="seminar-title">Smart Coding: Tips, Tricks, and Websites Building with A.I.</h3>
+            <div class="seminar-meta">
+              <span><i class="ri-calendar-line"></i> October 21, 2025</span>
+              <span><i class="ri-sparkling-2-line"></i> AI &amp; Web Technologies</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Seminar 2 -->
+        <div class="seminar-card reveal">
+          <div class="seminar-number">02</div>
+          <div class="seminar-content">
+            <h3 class="seminar-title">Armanda Logic's School Caravan: AI tools and Software Technologies for Programming
+              and Research</h3>
+            <div class="seminar-meta">
+              <span><i class="ri-calendar-line"></i> School Caravan</span>
+              <span><i class="ri-code-s-slash-line"></i> Software Technologies</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Seminar 3 -->
+        <div class="seminar-card reveal">
+          <div class="seminar-number">03</div>
+          <div class="seminar-content">
+            <h3 class="seminar-title">International Academic Lecture Series on ICT, Innovation and Collaboration</h3>
+            <div class="seminar-meta">
+              <span><i class="ri-global-line"></i> International Series</span>
+              <span><i class="ri-lightbulb-line"></i> ICT &amp; Innovation</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Seminar 4 -->
+        <div class="seminar-card reveal">
+          <div class="seminar-number">04</div>
+          <div class="seminar-content">
+            <h3 class="seminar-title">DMMMSU Internalization: Ready, Set, Global!</h3>
+            <div class="seminar-meta">
+              <span><i class="ri-building-line"></i> DMMMSU</span>
+              <span><i class="ri-compass-3-line"></i> Global Readiness</span>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /.seminars-container -->
+
+    </div>
+  </section>
+
+
+  <!-- =============================================
+       9. AWARDS & HONORS SECTION
+       ============================================= -->
+  <section id="awards" class="section">
+    <div class="container">
+
+      <div class="section-header reveal">
+        <span class="section-tag"><i class="ri-star-smile-line"></i> Academic Honors</span>
+        <h2 class="section-title">Awards &amp; <span class="gradient-text">Honors</span></h2>
+        <p class="section-subtitle">Recognition for sustained academic dedication and excellence</p>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="awards-grid">
+
+        <!-- Award 1 -->
+        <div class="award-card reveal">
+          <div class="award-medal-icon">
+            <i class="ri-trophy-line"></i>
+          </div>
+          <h3 class="award-title">With Honors</h3>
+          <p class="award-period"><i class="ri-calendar-line"></i> Academic Year 2022 – 2023</p>
+          <span class="award-badge"><i class="ri-sparkling-fill"></i> Academic Excellence</span>
+        </div>
+
+        <!-- Award 2 -->
+        <div class="award-card reveal">
+          <div class="award-medal-icon">
+            <i class="ri-award-fill"></i>
+          </div>
+          <h3 class="award-title">With Honors</h3>
+          <p class="award-period"><i class="ri-calendar-line"></i> Academic Year 2023 – 2024</p>
+          <span class="award-badge"><i class="ri-sparkling-fill"></i> Academic Excellence</span>
+        </div>
+
+      </div><!-- /.awards-grid -->
+
+    </div>
+  </section>
+
+
+  <!-- =============================================
+       10. CONTACT SECTION
+       ============================================= -->
+  <section id="contact" class="section">
+    <div class="container">
+
+      <div class="section-header reveal">
+        <span class="section-tag"><i class="ri-chat-smile-2-line"></i> Get in Touch</span>
+        <h2 class="section-title">Contact <span class="gradient-text">Me</span></h2>
+        <p class="section-subtitle">Feel free to reach out for academic projects, internships, or inquiries</p>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="contact-layout">
+
+        <!-- Contact Information Cards -->
+        <div class="contact-info-col reveal">
+          <h3 class="contact-subheading">Let's Connect &amp; Collaborate 🌸</h3>
+          <p class="contact-intro">
+            Whether you have an internship opportunity, a tech collaboration, or an academic query,
+            I'm always open to communicating and learning.
+          </p>
+
+          <div class="contact-cards-stack">
+
+            <a href="mailto:wencyjadeo@gmail.com" class="contact-item-card">
+              <div class="contact-icon"><i class="ri-mail-send-line"></i></div>
+              <div class="contact-text">
+                <span class="contact-label">Email Address</span>
+                <span class="contact-val">wencyjadeo@gmail.com</span>
+              </div>
+              <i class="ri-arrow-right-up-line contact-arrow"></i>
+            </a>
+
+            <a href="tel:+639097139320" class="contact-item-card">
+              <div class="contact-icon"><i class="ri-phone-line"></i></div>
+              <div class="contact-text">
+                <span class="contact-label">Phone Number</span>
+                <span class="contact-val">+63 909 713 9320</span>
+              </div>
+              <i class="ri-arrow-right-up-line contact-arrow"></i>
+            </a>
+
+            <div class="contact-item-card static">
+              <div class="contact-icon"><i class="ri-map-pin-2-line"></i></div>
+              <div class="contact-text">
+                <span class="contact-label">Location</span>
+                <span class="contact-val">Santol, La Union, Philippines</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form-col reveal">
+          <form class="modern-contact-form" action="https://formsubmit.co/wencyjadeo@gmail.com" method="POST">
+            <!-- FormSubmit Email Format Configurations -->
+            <input type="hidden" name="_subject" value="New Contact Message - Wency Jade Oriente Portfolio" />
+            <input type="hidden" name="_template" value="box" />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_next" id="formNextInput" value="thankyou.html" />
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="contactName">Your Name</label>
+                <div class="input-wrap">
+                  <input type="text" id="contactName" name="name" placeholder="Juan Dela Cruz" required />
+                  <i class="ri-user-3-line input-icon"></i>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="contactEmail">Your Email</label>
+                <div class="input-wrap">
+                  <input type="email" id="contactEmail" name="email" placeholder="juan@example.com" required />
+                  <i class="ri-mail-line input-icon"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="contactSubject">Subject</label>
+              <div class="input-wrap">
+                <input type="text" id="contactSubject" name="subject" placeholder="Internship Inquiry / Project Collab" required />
+                <i class="ri-chat-1-line input-icon"></i>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="contactMessage">Message</label>
+              <div class="input-wrap textarea-wrap">
+                <textarea id="contactMessage" name="message" placeholder="Hello Wency, I would like to connect with you regarding..." rows="4" required></textarea>
+                <i class="ri-message-3-line input-icon"></i>
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block">
+              <i class="ri-send-plane-fill"></i> Send Message ✨
+            </button>
+          </form>
+        </div>
+
+      </div><!-- /.contact-layout -->
+
+    </div>
+  </section>
+
+
+  <!-- =============================================
+       FOOTER
+       ============================================= -->
+  <footer class="footer">
+    <div class="container footer-container">
+
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#home" class="nav-logo footer-logo">
+            <span class="logo-badge">🌸</span>
+            <span class="logo-text">WJ Oriente<span class="sparkle-dot">✦</span></span>
+          </a>
+          <p class="footer-tagline">Information Systems Student · DMMMSU-NLUC</p>
+        </div>
+
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#education">Education</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="resume.pdf" target="_blank" rel="noopener noreferrer">Resume ✨</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright-text">
+          &copy; 2026 <strong>Wency Jade Oriente</strong> · All rights reserved 💖
+        </p>
+        <p class="footer-built">
+          Designed with soft baby-pink aesthetics &amp; modern code
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="backToTop" aria-label="Scroll back to top of page">
+    <i class="ri-arrow-up-line"></i>
+  </button>
+
+  <!-- Live Toast Notification Container -->
+  <div class="toast" id="toast" role="alert" aria-live="polite"></div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+
+</html>
